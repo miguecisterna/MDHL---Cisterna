@@ -1,0 +1,26 @@
+.MDLogo{
+    width: 12vw;
+    margin: 1rem;
+}
+
+header .container{
+    display: inline-block;
+    margin-left: 6rem;
+    position: absolute;
+    margin-top: 3rem;
+}
+
+h1{
+    display: inline-block;
+}
+
+.mainImage{
+    margin: 3rem 9rem;
+    width: 25vw;
+}
+
+section{
+    display: inline-block;
+    width: 40vw;
+    position: absolute;
+}
