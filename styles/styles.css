@@ -8,17 +8,17 @@ header{
     background-position: 0 -9rem;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 45vh;
+    height: 30vh;
 }
 
 .headerImgTitle h2{
-    -webkit-text-stroke: 2px black; /* width and color */
     font-family: 'Staatliches', cursive;
-    font-size: 21vh;
-    color: #e7d131;
+    font-size: 12vh;
+
 }
 
 .tituloLogo{
+    position: relative;
     margin: .3rem;
     background-color: black;
     height: 6.6vh;
@@ -27,37 +27,50 @@ header{
 .tituloLogo h3{
     font-family: 'Staatliches', cursive;
     font-size: 2.1rem;
-    color: #e7d131;
+    color: white;
     text-align: center;
     margin: .3rem;
     padding: .3rem 0;
 
 }
 
-.navContainer{
-    display: inline-block;
-    margin: .3rem .3rem 0;
-    width: 21vw;
+.logo {
+    left: 80%;
+    position: absolute;
+    width: 10%;
+    top: -100%;
+    background-color: rgb(215, 215, 215);
+    border: 5px solid white;
 }
 
+.navContainer {
+    display: inline-block;
+    margin: 0.3rem 0.3rem 0;
+    width: 18vw;
+    position: absolute;
+    top: 36%;
+}
 nav a{
     display: block;
-    text-align: center;
     padding: 1.5rem;
     margin: .3rem 0;
-    background-color: rgb(229, 37, 37);
-    border: 6px solid rgb(9, 10, 80);
     font-family: 'Staatliches', cursive;
     font-size: 2.1rem;
-    color: white;
+    color: black;
+}
+
+.active{
     text-decoration: none;
 }
 
-.content{
+.content {
     display: inline-block;
     height: 36vh;
-    width: 60vw;
-    margin: 0 6rem ;
+    width: 75vw;
+    margin: 0;
+    position: absolute;
+    left: 25%;
+    top: 39%;
 }
 
 .content li{
@@ -72,5 +85,9 @@ nav a{
 li h3, li p{
     font-family: 'Staatliches', cursive;
     font-size: 1.2rem;
+}
+
+p{
+    font-family: 'Staatliches', cursive;
 }
 
