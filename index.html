@@ -11,42 +11,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
 <body>
     <header>
         <div class="headerImgTitle">
             <h2>Migthy Ducks Hockey League</h2>
-        </div>
-        <div class="tituloLogo">
-            <h3>Upcoming Events</h3>
-            <img src="./assets/logoMightyDucks01.png" alt="" class="logo">
+            <img src="./assets/Logo_Mighty_ducks-01.png" alt="" class="logo">
+            <div class="navContainer">
+                <nav>
+                    <a href="#title" class="active">Home</a>
+                    <a href="./about.html">About MDHL</a>
+                    <a href="./game_info.html">Games Schedule</a>
+                    <a href="./rules.html">Play Rules and Policy</a>
+                    <a href="./contact.html">Contact</a>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
-        <div class="navContainer">
-            <nav>
-                <a href="#" class="active">Home</a>
-                <a href="./about.html">About MDHL</a>
-                <a href="./contact.html">Contact</a>
-            </nav>
-        </div>
-        <div class="content">
-            <ul>
-                <li>
-                    <h3>August 4</h3>
-                    <p>MDSL Fundraiser</p>
-                </li>
-                <li>
-                    <h3>August 16</h3>
-                    <p>Season Kick-off: Meet the Teams
-                    </p>
-                </li>
-                <li>
-                    <h3>September 1</h3>
-                    <p>First Game of the Season (Check Game Schedule for details)</p>
-                </li>
-            </ul>
+        <div class="content" id="indexContent">   
+            <div class="contentContainer">
+            <h2 class="title" id="title">UPCOMING EVENTS</h2>
+            <h3>August 4</h3>
+            <p>MDSL Fundraiser</p>
+            <h3>August 16</h3>
+            <p>Season Kick-off: Meet the Teams</p>
+            <h3>September 1</h3>
+            <p>First Game of the Season (Check Game Schedule for details)</p>
+            </div>    
+            
         </div>
     </main>
 </body>
