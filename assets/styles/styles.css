@@ -287,9 +287,10 @@ li h3, li p{
     -webkit-text-stroke: 2px black;
 }
 
-table, th, td{
+table, th, td {
     border: 1px solid black;
     background-color: darkorange;
+    font-family: 'Staatliches';
 }
 
 .scheduleText {
@@ -356,5 +357,5 @@ table, th, td{
     right: 0;
     position: absolute;
     z-index: -1;   
-    height: 45vh;
+    height: 51vh;
 }
