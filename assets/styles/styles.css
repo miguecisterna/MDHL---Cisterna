@@ -288,8 +288,8 @@ li h3, li p{
 }
 
 table, th, td {
-    border: 1px solid black;
-    background-color: darkorange;
+    border: 1px solid #30313c;
+    background-color: white;
     font-family: 'Staatliches';
 }
 
